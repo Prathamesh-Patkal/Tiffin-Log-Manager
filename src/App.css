@@ -1,0 +1,91 @@
+
+body {
+  font-family: "Poppins";
+  background-color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+.navbar1 {
+  font-size: 14vh;
+  font-weight: 500;
+}
+/*navbar make changes */
+.navbar1 img {
+  border-radius: 5vh;
+  padding: 0.5vh;
+}
+.Footer12 {
+  padding: 5vh;
+  background-color: #e1e1e1;
+  color: rgb(0, 0, 0);
+  border-top: 2px dashed black;
+
+}
+.Footer12 h5{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.Footer12 li{
+
+  display: flex;
+  align-items: center;
+
+}
+.map img{
+
+  height: 200px;
+  width: auto;
+  margin-left: 10vh;
+  border-radius: 2vh;
+}
+.Footer12 h4{
+
+  color: #a52020;
+  font-weight: bold;
+  font-family: 'Copperplate Gothic', sans-serif;
+
+}
+.homebut{
+
+  padding-left: 2vh;
+}
+
+.Footer12 span{
+
+  color: rgb(0, 0, 0);
+
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.5vh;
+  margin-top: 2.5vh;
+}
+.icon1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* menun card  */
+
+
+@media screen and (min-width: 325px) and (max-width: 500px) {
+  body {
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+  }
+  .Footer12 {
+  }
+  .partb1 {
+    margin: 3vh;
+  }
+  .navbtn button {
+    margin-right: 2vh;
+  }
+
+}
